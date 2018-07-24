@@ -30,12 +30,6 @@
     src: url(../font-collections/Bringheart.ttf);
 }
 
-/*
-#EFF4F8 bg background
-#262322 Raisin blk default txt color
-#63372c Van dyke brown 3rd color 
-#c97d60 fuzzy wuzzy alternate
-*/
 html, body {
     max-width: 100%;
     overflow-x: hidden;
