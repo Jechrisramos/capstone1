@@ -1,0 +1,500 @@
+/*css default*/
+* {
+	padding: 0px;
+	margin: 0px;
+	box-sizing: border-box;
+}
+
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
+/*font-collections*/
+@font-face {
+    font-family: Roboto; /*default-font*/
+    src: url(../font-collections/Roboto-Regular.ttf);
+}
+@font-face {
+    font-family: Lemon-milk; /*Jaise-title-headers*/
+    src: url(../font-collections/lemon_milk/LemonMilkbold.otf);
+}
+@font-face {
+    font-family: Poetsen; /*calag-title-headers*/
+    src: url(../font-collections/poetsen_one/PoetsenOne-Regular.ttf);
+}
+@font-face {
+    font-family: kenyan; /*night-hub-title-headers*/
+    src: url(../font-collections/Kenyan_coffee/Kenyan coffee bd.ttf);
+}
+@font-face {
+    font-family: Primetime;
+    src: url(../font-collections/primetime/PRIMETIME.ttf);
+}
+@font-face {
+    font-family: Bringheart; /*default-font*/
+    src: url(../font-collections/Bringheart.ttf);
+}
+
+
+body {
+	background-image: url("../images/BODY-BG/stripe bg.png");
+	background-repeat: repeat;
+	color: #f2ecd7; /*eggshell-white*/ 
+	font-family: Roboto;
+	text-align: justify;
+}
+
+h1, h2, h3, h4, h5, h6, soc-med{
+	font-family: Lemon-milk;
+	text-align: left;
+	color:	#FFA630; /*deepsafron*/
+}
+
+a {
+	color: #f2ecd7; /*eggshell-white*/
+}
+
+a:hover {
+	color:	#FFA630; /*deepsafron*/
+	text-decoration: none;
+}
+
+/*setting defaults button for accord*/
+
+button {
+	background-color: transparent;
+	border: none;
+}
+nav {
+	width: 100%;
+	height: auto;
+	font-family: Lemon-milk;
+	/*margin-top: 10px;*/
+	/*padding-left: 10px;*/
+}
+
+.jd-logo {
+	max-width: 50px;
+	height: auto;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	/*padding-top: 15px;*/
+	padding-top: 2px;
+	padding-bottom: 10px;
+}
+
+.nav-item {
+	width: 25px;
+	padding-top: 10px;
+	/*padding-bottom: 5px;*/
+	letter-spacing: 2px;
+	background-color: #000;
+}
+
+.nav-link {
+	padding: 3px;
+	text-align: center;
+}
+
+.nav-link:hover	{
+	border-bottom: 5px solid #FFA630; /*deepsafron*/
+}
+
+.logout {
+	padding-left: 5px;
+	margin-bottom: 5px;
+	/*padding-top: 15px;*/
+}
+.btn {
+	width: 100%;
+	padding: 5px;
+	letter-spacing: 2px;
+	color: #f2ecd7;
+	background-color: #000;
+}
+
+.btn:hover{
+	color: #FFA630; /*deepsafron*/
+}
+
+
+.accord {
+    cursor: pointer;
+    padding-right: 20px;
+    width: 550px;
+	height: 300px;
+    border: none;
+    outline: none;
+    font-size: 15px;
+    transition: 0.4s;
+}
+
+.img-banner {
+	max-width: 550px;
+	max-height: 300px;
+}
+
+#pachino, #pach {
+	width: 960px;
+	height: 300px;
+}
+
+
+#btncaptn, #captn {
+	width: 100%;
+	height: 200px;
+}
+
+.panel {
+    padding-top: 10px; 
+    background-color: transparent;
+    max-height: 0;
+    text-align: justify;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
+}
+
+
+.tagline {
+	padding-bottom: 0;
+	color: #f2ecd7; /*eggshell-white*/
+	text-align: right;
+	font-family: Lemon-milk;
+	font-size: 5em;
+}
+
+#tag2 {
+	font-size: 1.8em;
+}
+
+.card  {
+	background: transparent;
+	width: 400px;
+	height: 300px;
+	width: 100%;
+}
+
+.form-log-mid{
+	background: rgba(0, 0, 0, 0.4);
+	border-radius: 8%;
+	width: 400px;
+	height: 300px;
+	top: 100px;
+	left: 430px;
+	float: left;
+	position: absolute;
+	padding: 20px;
+}
+
+
+#landinglogo {
+	width: 50px;
+	height: 25px;
+	position: relative;
+	left: 305px;
+	margin-bottom: 15px;
+}
+
+#home-intro-bg {
+	height: 800px;
+	background: url(../images/intro-bg.jpg);
+	background-size: 100%;
+	background-repeat: no-repeat;
+}
+
+.intro-txt {
+	margin-top: 47%;
+	padding: 20px;
+	width: 100%;
+	font-size: 18px;
+	font-style: bold;
+	text-align: justify;
+	background: rgba(0, 0, 0, 0.4);
+	color: #CEC296; /*dark vanilla*/
+}
+
+.introjaisep{
+	font-family: lemon-milk;
+	color: #FFA630; /*deepsafron*/
+	font-size: 24px;
+	display: inline;
+}
+
+#intro-inv {
+	font-size: 20px;
+	margin-top: -15px;
+	color: #fff;
+}
+
+footer {
+	background: rgba(0, 0, 0, 0.6);
+	height: 200px;
+	padding: 25px;
+	line-height: 0.5px;
+}
+ 
+hr {
+	background-color: #f2ecd7; /*eggshell-white*/
+}
+
+#jlogo-footer {
+	max-width: 80px;
+		height: 40px;
+		margin: 0 auto;
+}
+
+.msg {
+	padding: 20px 10px;
+}
+
+.msg  h5 {
+	color: #F2B463; /*sandybrown*/
+}
+
+#background {
+	text-align: center;
+}
+
+.parag {
+	padding: 10px 0;
+}
+
+.center {
+	max-width: 100%;
+	margin: 0 auto;
+	padding: 50px;
+}
+
+.icon {
+	padding-left: 200px;
+	padding-bottom: 20px; 
+
+}
+
+
+/*media queries*/
+/*smallsmartphone*/
+@media (min-width: 576px) and (max-width: 767.98px) { 
+	.tagline {
+		color: #f2ecd7; /*eggshell-white*/
+		text-align: right;
+		font-family: Lemon-milk;
+		font-size: 25px;
+	}
+
+	#tag2 {
+		font-size: 20px;
+	}
+
+	.accord {
+	    cursor: pointer;
+	    padding-right: 20px;
+	    width: 300px;
+		height: 200px;
+	    border: none;
+	    text-align: left;
+	    outline: none;
+	    font-size: 15px;
+	    transition: 0.4s;
+	}
+
+
+	.img-banner {
+		width: 300px;
+		height: 200px;
+	}
+
+	.panel {
+	    /*padding: 0 18px;*/
+	    background-color: transparent;
+	    max-height: 0;
+	    text-align: justify;
+	    overflow: hidden;
+	    transition: max-height 0.2s ease-out;
+	}
+
+	#pachino, #pach, #btncaptn, #captn {
+	width: 250px;
+	height: 200px;
+	}
+
+	.navbar-brand {
+		width: 100%;
+	}
+
+	#intro-bg {
+		background: url(../images/intro-bg.jpg);
+		background-size: 100% 100%;
+		background-repeat: no-repeat;
+	}
+
+	.intro-txt {
+		padding: 5px;
+		width: 100%;
+		text-align: justify;
+		background: rgba(0, 0, 0, 0.4);
+		color: #CEC296; /*dark vanilla*/
+	}
+
+		#intro-inv {
+		font-size: 15px;
+		margin-top: -15px;
+		color: #fff;
+	}
+
+	footer {
+	background: rgba(0, 0, 0, 0.6);
+	height: auto;
+	padding: 25px;
+	line-height: 1.5px;
+}
+
+}
+
+/*extrasmallsmartphone*/
+@media (max-width: 575.98px) { 
+	.tagline {
+		color: #f2ecd7; /*eggshell-white*/
+		text-align: right;
+		font-family: Lemon-milk;
+		font-size: 25px;
+	}
+
+	#tag2 {
+		font-size: 20px;
+	}
+
+	.accord {
+	    cursor: pointer;
+	    padding-right: 20px;
+	    width: 250px;
+		height: 200px;
+	    border: none;
+	    text-align: left;
+	    outline: none;
+	    font-size: 15px;
+	    transition: 0.4s;
+	}
+
+
+	.img-banner {
+		width: 250px;
+		height: 200px;
+	}
+
+	#pachino, #pach, #btncaptn, #captn {
+	width: 250px;
+	height: 200px;
+	}
+
+	.panel {
+	    /*padding: 0 18px;*/
+	    background-color: transparent;
+	    max-height: 0;
+	    text-align: justify;
+	    overflow: hidden;
+	    transition: max-height 0.2s ease-out;
+	}
+
+
+
+	#home-intro-bg {
+		background: url(../images/intro-bg.jpg);
+		background-size: 100% 100%;
+		background-repeat: no-repeat;
+		/*position: absolute;*/
+		height: 100%;
+	}
+
+	.intro-txt {
+		padding: 5px;
+		width: 100%;
+		text-align: justify;
+		background: rgba(0, 0, 0, 0.4);
+		color: #CEC296; /*dark vanilla*/
+	}
+
+		#intro-inv {
+		font-size: 15px;
+		margin-top: -15px;
+		color: #fff;
+	}
+
+	footer {
+	background: rgba(0, 0, 0, 0.6);
+	padding: 5px;
+	line-height: 1.5px;
+}
+
+
+/*tabletdefault*/
+@media (min-width: 768px) and (max-width: 768px) {
+	#buildwithus {
+		padding-right: ;
+		color: #f2ecd7; /*eggshell-white*/
+		text-align: right;
+		font-family: Bringheart;
+		font-size: 2em;
+	}
+
+
+	#home-intro-bg {
+		background: url(../images/intro-bg.jpg);
+		background-size: 100% 100%;
+		background-repeat: no-repeat;
+		/*position: absolute;*/
+		height: 100%;
+	   
+
+	}
+
+	.intro-txt {
+	margin-top: 48%;
+	padding: 10px;
+	width: 100%;
+	font-size: 18px;
+	font-style: bold;
+	text-align: justify;
+	background: rgba(0, 0, 0, 0.4);
+	color: #CEC296; /*dark vanilla*/
+}
+
+		#intro-inv {
+		font-size: 20px;
+		margin-top: -15px;
+		color: #fff;
+	}
+}
+
+/*large default*/
+@media (min-width: 992px) and (max-width: 768px) {
+
+}
+
+/*extralargedefault*/
+@media (max-width: 1200px) {
+	#home-intro-bg {
+		background: url(../images/intro-bg.jpg);
+		background-size: 100% 100%;
+		background-repeat: no-repeat;
+	}
+
+	.intro-txt {
+		margin-top: 270px;
+		width: 100%;
+		padding: 10px 10px 10px 10px;
+		font-size: 20px;
+		font-style: bold;
+		text-align: justify;
+		background: rgba(0, 0, 0, 0.2);
+		color: #CEC296; 
+	}
+
+		#intro-inv {
+		font-size: 20px;
+		margin-top: -15px;
+		color: #fff;
+	}
+}

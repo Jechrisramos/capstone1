@@ -1,0 +1,504 @@
+/*css default*/
+* {
+	padding: 0px;
+	margin: 0px;
+	box-sizing: border-box;
+}
+
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+
+@font-face {
+    font-family: Roboto; /*default-font*/
+    src: url(../font-collections/Roboto-Regular.ttf);
+}
+@font-face {
+    font-family: Lemon-milk; /*Jaise-title-headers*/
+    src: url(../font-collections/lemon_milk/LemonMilkbold.otf);
+}
+
+body {
+	max-width: 100%;
+	height: auto;
+	font-family: Roboto;
+	color: #f2ecd7; /*eggshell*/
+	background-image: url(../images/intro-bg.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+/*form*/
+.form-log-mid{
+	background: rgba(0, 0, 0, 0.4);
+	border-radius: 7%;
+	width: 500px;
+	height: 350px;
+	display: block;
+	margin-top: 120px;
+	margin-bottom: 150px;
+    margin-left: auto;
+    margin-right: auto;
+	padding: 20px;
+}
+
+.modal-header, .modal-body, .modal-footer {
+	background-color: grey;
+}
+
+
+
+#landinglogo, #signuplogo {
+	max-width: 50px;
+	height: auto;
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 15px;
+}
+
+.form-check {
+	padding-left: 25px;
+}
+
+.form-check-label {
+	color: #f2ecd7; /*eggshell*/
+}
+
+.form-check-label:hover {
+	color: #FFA630; /*deepsafron*/
+}
+
+.sgnbtn {
+	background-color: #FFA630; /*deepsafron*/
+	color: #000;
+	font-family: Lemon-milk;
+	width: 250px;
+	display: block;
+	margin-top: 10px;
+	margin-bottom: 10px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.sgnbtn:hover {
+	background-color: #FFA630; /*deepsafron*/
+	color: white;
+}
+
+.form-footer {
+	text-align: right;
+	color: grey;
+	margin-top: 10px;
+	padding: 10px;
+}
+
+.form-footer:hover {
+	color: #FFA630; /*deepsafron*/
+}
+
+
+/*media queries*/
+/*extrasmallsmartphone*/
+@media (max-width: 575.98px) {
+body {
+	max-width: 100%;
+	height: auto;
+	display: block;
+	margin-top: 150px;
+	margin-bottom: 150px;
+	font-family: Roboto;
+	background-image: url(../images/intro-bg.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+/*form*/
+.form-log-mid{
+	/*background: rgba(0, 0, 0, 0.4);*/
+	/*border-radius: 8%;*/
+	max-width: 100%;
+	height: 350px;
+	display: block;
+	margin-top: 30px;
+	margin-bottom: 70px;
+    margin-left: auto;
+    margin-right: auto;
+	padding: 20px;
+}
+
+
+#landinglogo {
+	max-width: 50px;
+	height: auto;
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 15px;
+}
+
+.form-check {
+	padding-left: 25px;
+}
+
+.form-check-label {
+	color: #f2ecd7;
+}
+
+.sgnbtn {
+	background-color: #FFA630; /*deepsafron*/
+	font-family: Lemon-milk;
+	width: 170px;
+	font-size: 11px;
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.sgnbtn:hover {
+	background-color: #FFA630; /*deepsafron*/
+	color: white;
+}
+
+.form-footer {
+	text-align: center;
+	margin-top: 10px;
+	padding: 5px;
+}
+
+.form-footer:hover {
+	color: #FFA630; /*deepsafron*/
+}
+}
+
+/*smallsmartphone*/
+@media (min-width: 576px) and (max-width: 767.98px) {
+
+	body {
+		max-width: 100%;
+		height: 500px;
+		display: block;
+		/*margin-top: 50px;*/
+		/*margin-bottom: -50px;*/
+		font-family: Roboto;
+		background-image: url(../images/intro-bg.jpg);
+		background-size: fixed;
+		background-repeat: no-repeat;
+	}
+
+	/*form*/
+	.form-log-mid{
+		background: rgba(0, 0, 0, 0.4);
+		border-radius: 8%;
+		max-width: 100%;
+		max-height: 500%;
+		display: block;
+		/*margin-top: 50px;*/
+		/*font-size: 10px;*/
+		/*margin-bottom: 50px;*/
+	    margin-left: auto;
+	    margin-right: auto;
+		padding: 20px;
+	}
+
+
+	#landinglogo {
+		max-width: 50px;
+		height: auto;
+		display: block;
+	    margin-left: auto;
+	    margin-right: auto;
+	    padding-bottom: 15px;
+	}
+
+	.form-check {
+		padding-left: 25px;
+	}
+
+	.form-check-label {
+		color: #f2ecd7;
+	}
+
+	.sgnbtn {
+		background-color: #FFA630; /*deepsafron*/
+		font-family: Lemon-milk;
+		width: 250px;
+		display: block;
+	    margin-left: auto;
+	    margin-right: auto;
+	}
+
+	.sgnbtn:hover {
+		background-color: #FFA630; /*deepsafron*/
+		color: white;
+	}
+
+	.form-footer {
+		text-align: right;
+		margin-top: 10px;
+		padding: 10px;
+	}
+
+	.form-footer:hover {
+		color: #FFA630; /*deepsafron*/
+	}
+
+}
+
+/*tabletdefault*/
+@media (min-width: 768px) and (max-width: 991.98px) {
+	body  {
+	max-width: 100%;
+	height: 1000px;
+	font-family: Roboto;
+	color: #f2ecd7; /*eggshell*/
+	background-image: url(../images/intro-bg.jpg);
+	background-size: cover;
+	/*padding-top: 250px;*/
+	padding-bottom: 250px;
+	background-repeat: no-repeat;
+	background-color: grey;
+	}
+
+	/*form*/
+	.form-log-mid{
+		background: rgba(0, 0, 0, 0.4);
+		border-radius: 7%;
+		width: 500px;
+		height: 350px;
+		display: block;
+		margin-top: 20px;
+		margin-bottom: 150px;
+		font-size: 12px;
+	    margin-left: auto;
+	    margin-right: auto;
+		padding: 20px;
+	}
+
+	.modal-header, .modal-body, .modal-footer {
+		background-color: grey;
+	}
+
+
+
+	#landinglogo, #signuplogo {
+		max-width: 50px;
+		height: auto;
+		display: block;
+	    margin-left: auto;
+	    margin-right: auto;
+	    padding-bottom: 15px;
+	}
+
+	.form-check {
+		padding-left: 25px;
+	}
+
+	.form-check-label {
+		color: #f2ecd7; /*eggshell*/
+	}
+
+	.form-check-label:hover {
+		color: #FFA630; /*deepsafron*/
+	}
+
+	.sgnbtn {
+		background-color: #FFA630; /*deepsafron*/
+		color: #000;
+		font-family: Lemon-milk;
+		width: 250px;
+		display: block;
+		margin-top: 10px;
+		margin-bottom: 10px;
+	    margin-left: auto;
+	    margin-right: auto;
+	}
+
+	.sgnbtn:hover {
+		background-color: #FFA630; /*deepsafron*/
+		color: white;
+	}
+
+	.form-footer {
+		text-align: right;
+		color: grey;
+		margin-top: 10px;
+		padding: 10px;
+	}
+
+	.form-footer:hover {
+		color: #FFA630; /*deepsafron*/
+	}
+}
+/*largedevices*/
+@media (min-width: 992px) and (max-width: 1199.98px) {
+	body  {
+	max-width: 100%;
+	height: 1500px;
+	font-family: Roboto;
+	color: #f2ecd7; /*eggshell*/
+	background-image: url(../images/intro-bg.jpg);
+	background-size: cover;
+	/*padding-top: 250px;*/
+	padding-bottom: 250px;
+	background-repeat: no-repeat;
+	background-color: grey;
+	}
+
+	/*form*/
+	.form-log-mid{
+		background: rgba(0, 0, 0, 0.4);
+		border-radius: 7%;
+		width: 500px;
+		height: 350px;
+		display: block;
+		margin-top: 20px;
+		margin-bottom: 150px;
+		font-size: 12px;
+	    margin-left: auto;
+	    margin-right: auto;
+		padding: 20px;
+	}
+
+	.modal-header, .modal-body, .modal-footer {
+		background-color: grey;
+	}
+
+
+
+	#landinglogo, #signuplogo {
+		max-width: 50px;
+		height: auto;
+		display: block;
+	    margin-left: auto;
+	    margin-right: auto;
+	    padding-bottom: 15px;
+	}
+
+	.form-check {
+		padding-left: 25px;
+	}
+
+	.form-check-label {
+		color: #f2ecd7; /*eggshell*/
+	}
+
+	.form-check-label:hover {
+		color: #FFA630; /*deepsafron*/
+	}
+
+	.sgnbtn {
+		background-color: #FFA630; /*deepsafron*/
+		color: #000;
+		font-family: Lemon-milk;
+		width: 250px;
+		display: block;
+		margin-top: 10px;
+		margin-bottom: 10px;
+	    margin-left: auto;
+	    margin-right: auto;
+	}
+
+	.sgnbtn:hover {
+		background-color: #FFA630; /*deepsafron*/
+		color: white;
+	}
+
+	.form-footer {
+		text-align: right;
+		color: grey;
+		margin-top: 10px;
+		padding: 10px;
+	}
+
+	.form-footer:hover {
+		color: #FFA630; /*deepsafron*/
+	}
+}
+
+/*extralargedefault*/
+@media (max-width: 1200px) {
+	body  {
+	max-width: 100%;
+	height: 1500px;
+	font-family: Roboto;
+	color: #f2ecd7; /*eggshell*/
+	background-image: url(../images/intro-bg.jpg);
+	background-size: cover;
+	padding-top: 50px;
+	/*padding-bottom: 250px;*/
+	background-repeat: no-repeat;
+	background-color: grey;
+	}
+
+	.form-log-mid{
+		background: rgba(0, 0, 0, 0.4);
+		border-radius: 7%;
+		width: 500px;
+		height: 350px;
+		display: block;
+		margin-top: 20px;
+		margin-bottom: 150px;
+		font-size: 12px;
+	    margin-left: auto;
+	    margin-right: auto;
+		padding: 20px;
+	}
+
+	.modal-header, .modal-body, .modal-footer {
+		background-color: grey;
+	}
+
+
+
+	#landinglogo, #signuplogo {
+		max-width: 50px;
+		height: auto;
+		display: block;
+	    margin-left: auto;
+	    margin-right: auto;
+	    padding-bottom: 15px;
+	}
+
+	.form-check {
+		padding-left: 25px;
+	}
+
+	.form-check-label {
+		color: #f2ecd7; /*eggshell*/
+	}
+
+	.form-check-label:hover {
+		color: #FFA630; /*deepsafron*/
+	}
+
+	.sgnbtn {
+		background-color: #FFA630; /*deepsafron*/
+		color: #000;
+		font-family: Lemon-milk;
+		width: 250px;
+		display: block;
+		margin-top: 10px;
+		margin-bottom: 10px;
+	    margin-left: auto;
+	    margin-right: auto;
+	}
+
+	.sgnbtn:hover {
+		background-color: #FFA630; /*deepsafron*/
+		color: white;
+	}
+
+	.form-footer {
+		text-align: right;
+		color: grey;
+		margin-top: 10px;
+		padding: 10px;
+	}
+
+	.form-footer:hover {
+		color: #FFA630; /*deepsafron*/
+	}
+}

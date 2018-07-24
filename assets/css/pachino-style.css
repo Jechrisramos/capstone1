@@ -1,0 +1,840 @@
+* {
+	padding: 0px;
+	margin: 0px;
+	box-sizing: border-box;
+}
+
+/*font-collections*/
+@font-face {
+    font-family: Roboto; /*default-font*/
+    src: url(../font-collections/Roboto-Regular.ttf);
+}
+@font-face {
+    font-family: Lemon-milk; /*Jaise-title-headers*/
+    src: url(../font-collections/lemon_milk/LemonMilkbold.otf);
+}
+@font-face {
+    font-family: Poetsen; /*calag-title-headers*/
+    src: url(../font-collections/poetsen_one/PoetsenOne-Regular.ttf);
+}
+@font-face {
+    font-family: kenyan; /*night-hub-title-headers*/
+    src: url(../font-collections/Kenyan_coffee/kenyanrg.ttf);
+}
+@font-face {
+    font-family: Primetime;
+    src: url(../font-collections/primetime/PRIMETIME.ttf);
+}
+@font-face {
+    font-family: Bringheart; /*default-font*/
+    src: url(../font-collections/Bringheart.ttf);
+}
+
+/*
+#EFF4F8 bg background
+#262322 Raisin blk default txt color
+#63372c Van dyke brown 3rd color 
+#c97d60 fuzzy wuzzy alternate
+*/
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+}
+body {
+    background-color: #EFF4F8;
+	text-align: justify;
+	display: block;
+	margin: 0 auto;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-family: kenyan;
+	color:	#63372c;
+}
+
+p, button, ol li {
+	font-family: Roboto;
+	color: #262322; /*Raisin blk*/
+}
+
+a, a:hover {
+	text-decoration: none;
+}
+
+.title {
+	text-align: center;
+	color: #262322;
+}
+
+.nav {
+	background-color: #262322; /*Raisin blk*/
+}
+
+
+.nav-link {
+	background-color: #262322; /*Raisin blk*/
+	border-radius: 2px;
+	font-family: Primetime;
+	font-size: 24px;
+	color: #A14836;
+}
+
+a.nav-link:hover {
+	color: #EFF4F8;
+}
+
+.logo {
+	width: 120px;
+	/*background: white;*/
+	height: 120px;
+	display: block;
+	margin: 15px auto;
+}
+
+.nav-link:hover {
+	color: #63372c; 
+}
+
+.parallax1 {
+    max-width: 100%;
+    background: url(../images/pachino/pachino-shop.jpg);
+    min-height: 500px; 
+    margin: 0 auto;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0.8;
+}
+
+.parallax2 {
+    max-width: 100%;
+    background: url(../images/lamierda/travel-blog.jpg);
+    min-height: 500px; 
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.d-block {
+	max-width: 450px;
+	height: auto;
+	margin: 0 auto;
+	padding: 25px 10px;
+}
+
+.tagline {
+	max-width: 100%;
+	text-align: center;
+}
+
+.tagline2 {
+	max-width: 800px;
+	margin: 0 auto;
+	font-size: 20px;
+	text-align: center;
+}
+
+.menu-item {
+	padding-top: 15px;
+	text-align: center;
+	letter-spacing: 5px;
+}
+
+
+
+.content {
+	max-width: 800px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	/*padding: 20px 15px;*/
+	color: #fff;
+	text-align: center;
+	/*background-color: #EFF4F8;*/
+}
+
+.parag	 {
+	padding-left: 20px;
+	/*background-color:rgba(192,192,192,0.3);*/
+}
+
+.intro	{
+	/*width: 800px;*/
+	padding: 10px;
+	font-size: 20px;
+	display: block;
+}
+.display-3 {
+	color:	#FFA630; /*deepsafron*/
+	/*color: #f2ecd7; eggshell-white*/
+	text-align: center;
+	padding-top: 5px;
+}
+.menu	{
+	width: 950px;
+	margin: 0 auto;
+	padding-top: 20px;
+}
+.padding {
+	padding: 15px;
+}
+
+ol {
+ padding-left: 30px;
+}
+
+.fluid	{
+	max-width: 100%;
+	height: auto;
+	display: block;
+	margin: 0 auto;
+	padding-top: 15px;
+}
+
+
+/*media queries*/
+/*extrasmallsmartphone*/
+@media (max-width: 575.98px) { 
+	body {
+    background-color: #EFF4F8;
+	text-align: justify;
+	display: block;
+	margin: 0 auto;
+	}
+
+	h1 {font-size: 18px}
+	h2 {font-size: 16px}
+	h3 {font-size: 14px}
+	h4 {font-size: 12px}
+	h5 {font-size: 10px}
+	h6 {font-size: 8px}
+
+	h1, h2, h3, h4, h5, h6 {
+		font-family: kenyan;
+		color:	#63372c;
+	}
+
+	p, button, ol li {
+		font-family: Roboto;
+		color: #262322; /*Raisin blk*/
+	}
+
+	a, a:hover {
+		text-decoration: none;
+	}
+
+	.title {
+		text-align: center;
+		color: #262322;
+	}
+
+	.nav {
+		background-color: #262322; /*Raisin blk*/
+	}
+
+
+	.nav-link {
+		background-color: #262322; /*Raisin blk*/
+		border-radius: 2px;
+		font-family: Primetime;
+		font-size: 24px;
+		color: #A14836;
+	}
+
+	a.nav-link:hover {
+		color: #EFF4F8;
+	}
+
+	.logo {
+		width: 120px;
+		/*background: white;*/
+		height: 120px;
+		display: block;
+		margin: 15px auto;
+	}
+
+	.nav-link:hover {
+		color: #63372c; 
+	}
+
+	.parallax1 {
+	    max-width: 100%;
+	    background: url(../images/pachino/pachino-shop.jpg);
+	    min-height: 500px; 
+	    margin: 0 auto;
+	    background-attachment: fixed;
+	    background-position: center;
+	    background-repeat: no-repeat;
+	    background-size: cover;
+	    opacity: 0.8;
+	}
+
+	.parallax2 {
+	    max-width: 100%;
+	    background: url(../images/lamierda/travel-blog.jpg);
+	    min-height: 500px; 
+	    background-attachment: fixed;
+	    background-position: center;
+	    background-repeat: no-repeat;
+	    background-size: cover;
+	}
+
+	.d-block {
+		max-width: 450px;
+		height: auto;
+		margin: 0 auto;
+		padding: 25px 10px;
+	}
+
+	.tagline {
+		max-width: 100%;
+		text-align: center;
+	}
+
+	.tagline2 {
+		max-width: 800px;
+		margin: 0 auto;
+		font-size: 20px;
+		text-align: center;
+	}
+
+	.menu-item {
+		padding-top: 15px;
+		text-align: center;
+		letter-spacing: 5px;
+	}
+
+
+
+	.content {
+		max-width: 800px;
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+		/*padding: 20px 15px;*/
+		color: #fff;
+		text-align: center;
+		/*background-color: #EFF4F8;*/
+	}
+
+	.parag	 {
+		padding-left: 20px;
+		/*background-color:rgba(192,192,192,0.3);*/
+	}
+
+	.intro	{
+		/*width: 800px;*/
+		padding: 10px;
+		font-size: 20px;
+		display: block;
+	}
+	.display-3 {
+		color:	#FFA630; /*deepsafron*/
+		/*color: #f2ecd7; eggshell-white*/
+		text-align: center;
+		padding-top: 5px;
+	}
+	.menu	{
+		width: 100%;
+		margin: 0 auto;
+		padding-top: 20px;
+	}
+	.padding {
+		padding: 15px;
+	}
+
+	ol {
+	 padding-left: 30px;
+	}
+
+	.fluid	{
+		max-width: 100%;
+		height: auto;
+		display: block;
+		margin: 0 auto;
+		padding-top: 15px;
+	}
+}/*endquery*/
+
+/*smallsmartphone*/
+@media (min-width: 576px) and (max-width: 767.98px) {
+	body {
+		/*background: url(../images/lamierda/parallax2.jpg);
+	    min-height: 500px; 
+	    background-attachment: fixed;
+	    background-position: center;
+	    background-repeat: no-repeat;
+	    background-size: cover;*/
+	    /*background-color: #EFF4F8;*/
+	    font-size: 16px;
+	    line-height: 21px;
+		text-align: justify;
+		display: block;
+		margin: 0 auto;
+	}
+
+	h1 {font-size: 22px}
+	h2 {font-size: 20px}
+	h3 {font-size: 18px}
+	h4 {font-size: 16px}
+	h5 {font-size: 14px}
+	h6 {font-size: 12px}
+
+
+	p, button, ol li {
+		font-family: Roboto;
+		color: #262322; /*Raisin blk*/
+	}
+
+	a, a:hover {
+		text-decoration: none;
+	}
+
+	.title {
+		text-align: center;
+		color: #262322;
+	}
+
+	.nav {
+		background-color: #262322; /*Raisin blk*/
+	}
+
+
+	.nav-link {
+		background-color: #262322; /*Raisin blk*/
+		border-radius: 2px;
+		font-family: Primetime;
+		font-size: 24px;
+		color: #A14836;
+	}
+
+	a.nav-link:hover {
+		color: #EFF4F8;
+	}
+
+	.logo {
+		width: 120px;
+		/*background: white;*/
+		height: 120px;
+		display: block;
+		margin: 15px auto;
+	}
+
+	.nav-link:hover {
+		color: #63372c; 
+	}
+
+	.parallax1 {
+	    max-width: 100%;
+	    background: url(../images/pachino/pachino-shop.jpg);
+	    min-height: 500px; 
+	    margin: 0 auto;
+	    background-attachment: fixed;
+	    background-position: center;
+	    background-repeat: no-repeat;
+	    background-size: cover;
+	    opacity: 0.8;
+	}
+
+	.parallax2 {
+	    max-width: 100%;
+	    background: url(../images/lamierda/travel-blog.jpg);
+	    min-height: 500px; 
+	    background-attachment: fixed;
+	    background-position: center;
+	    background-repeat: no-repeat;
+	    background-size: cover;
+	}
+
+	.d-block {
+		max-width: 450px;
+		height: auto;
+		margin: 0 auto;
+		padding: 25px 10px;
+	}
+
+	.tagline {
+		max-width: 100%;
+		text-align: center;
+	}
+
+	.tagline2 {
+		max-width: 800px;
+		margin: 0 auto;
+		font-size: 20px;
+		text-align: center;
+	}
+
+	.menu-item {
+		padding-top: 15px;
+		text-align: center;
+		letter-spacing: 5px;
+	}
+
+
+
+	.content {
+		max-width: 800px;
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+		/*padding: 20px 15px;*/
+		color: #fff;
+		text-align: center;
+		/*background-color: #EFF4F8;*/
+	}
+
+	.parag	 {
+		padding-left: 20px;
+		/*background-color:rgba(192,192,192,0.3);*/
+	}
+
+	.intro	{
+		/*width: 800px;*/
+		padding: 10px;
+		font-size: 20px;
+		display: block;
+	}
+	.display-3 {
+		color:	#FFA630; /*deepsafron*/
+		/*color: #f2ecd7; eggshell-white*/
+		text-align: center;
+		padding-top: 5px;
+	}
+	.menu	{
+		width: 100%;
+		margin: 0 auto;
+		padding-top: 20px;
+	}
+	.padding {
+		padding: 15px;
+	}
+
+	ol {
+	 padding-left: 30px;
+	}
+
+	.fluid	{
+		max-width: 100%;
+		height: auto;
+		display: block;
+		margin: 0 auto;
+		padding-top: 15px;
+	}
+}/*endquery*/
+
+/*tabletdefault*/
+@media (min-width: 768px) and (max-width: 991.98px) {
+	body {
+		/*background: url(../images/lamierda/parallax2.jpg);
+	    min-height: 500px; 
+	    background-attachment: fixed;
+	    background-position: center;
+	    background-repeat: no-repeat;
+	    background-size: cover;*/
+	    /*background-color: #EFF4F8;*/
+	    font-size: 18px;
+	    line-height: 21px;
+		text-align: justify;
+		display: block;
+		margin: 0 auto;
+	}
+
+	h1 {font-size: 26px}
+	h2 {font-size: 24px}
+	h3 {font-size: 22px}
+	h4 {font-size: 20px}
+	h5 {font-size: 18px}
+	h6 {font-size: 16px}
+
+
+	p, button, ol li {
+		font-family: Roboto;
+		color: #262322; /*Raisin blk*/
+	}
+
+	a, a:hover {
+		text-decoration: none;
+	}
+
+	.title {
+		text-align: center;
+		color: #262322;
+	}
+
+	.nav {
+		background-color: #262322; /*Raisin blk*/
+	}
+
+
+	.nav-link {
+		background-color: #262322; /*Raisin blk*/
+		border-radius: 2px;
+		font-family: Primetime;
+		font-size: 24px;
+		color: #A14836;
+	}
+
+	a.nav-link:hover {
+		color: #EFF4F8;
+	}
+
+	.logo {
+		width: 120px;
+		/*background: white;*/
+		height: 120px;
+		display: block;
+		margin: 15px auto;
+	}
+
+	.nav-link:hover {
+		color: #63372c; 
+	}
+
+	.parallax1 {
+	    max-width: 100%;
+	    background: url(../images/pachino/pachino-shop.jpg);
+	    min-height: 500px; 
+	    margin: 0 auto;
+	    background-attachment: fixed;
+	    background-position: center;
+	    background-repeat: no-repeat;
+	    background-size: cover;
+	    opacity: 0.8;
+	}
+
+	.parallax2 {
+	    max-width: 100%;
+	    background: url(../images/lamierda/travel-blog.jpg);
+	    min-height: 500px; 
+	    background-attachment: fixed;
+	    background-position: center;
+	    background-repeat: no-repeat;
+	    background-size: cover;
+	}
+
+	.d-block {
+		max-width: 450px;
+		height: auto;
+		margin: 0 auto;
+		padding: 25px 10px;
+	}
+
+	.tagline {
+		max-width: 100%;
+		text-align: center;
+	}
+
+	.tagline2 {
+		max-width: 800px;
+		margin: 0 auto;
+		font-size: 20px;
+		text-align: center;
+	}
+
+	.menu-item {
+		padding-top: 15px;
+		text-align: center;
+		letter-spacing: 5px;
+	}
+
+
+
+	.content {
+		max-width: 800px;
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+		/*padding: 20px 15px;*/
+		color: #fff;
+		text-align: center;
+		/*background-color: #EFF4F8;*/
+	}
+
+	.parag	 {
+		padding-left: 20px;
+		/*background-color:rgba(192,192,192,0.3);*/
+	}
+
+	.intro	{
+		/*width: 800px;*/
+		padding: 10px;
+		font-size: 20px;
+		display: block;
+	}
+	.display-3 {
+		color:	#FFA630; /*deepsafron*/
+		/*color: #f2ecd7; eggshell-white*/
+		text-align: center;
+		padding-top: 5px;
+	}
+	.menu	{
+		width: 100%;
+		margin: 0 auto;
+		padding-top: 20px;
+	}
+	.padding {
+		padding: 15px;
+	}
+
+	ol {
+	 padding-left: 30px;
+	}
+
+	.fluid	{
+		max-width: 100%;
+		height: auto;
+		display: block;
+		margin: 0 auto;
+		padding-top: 15px;
+	}
+}/*endquery*/
+
+@media (min-width: 992px) and (max-width: 1199.98px) {
+	p, button, ol li {
+		font-family: Roboto;
+		color: #262322; /*Raisin blk*/
+	}
+
+	a, a:hover {
+		text-decoration: none;
+	}
+
+	.title {
+		text-align: center;
+		color: #262322;
+	}
+
+	.nav {
+		background-color: #262322; /*Raisin blk*/
+	}
+
+
+	.nav-link {
+		background-color: #262322; /*Raisin blk*/
+		border-radius: 2px;
+		font-family: Primetime;
+		font-size: 24px;
+		color: #A14836;
+	}
+
+	a.nav-link:hover {
+		color: #EFF4F8;
+	}
+
+	.logo {
+		width: 120px;
+		/*background: white;*/
+		height: 120px;
+		display: block;
+		margin: 15px auto;
+	}
+
+	.nav-link:hover {
+		color: #63372c; 
+	}
+
+	.parallax1 {
+	    max-width: 100%;
+	    background: url(../images/pachino/pachino-shop.jpg);
+	    min-height: 500px; 
+	    margin: 0 auto;
+	    background-attachment: fixed;
+	    background-position: center;
+	    background-repeat: no-repeat;
+	    background-size: cover;
+	    opacity: 0.8;
+	}
+
+	.parallax2 {
+	    max-width: 100%;
+	    background: url(../images/lamierda/travel-blog.jpg);
+	    min-height: 500px; 
+	    background-attachment: fixed;
+	    background-position: center;
+	    background-repeat: no-repeat;
+	    background-size: cover;
+	}
+
+	.d-block {
+		max-width: 450px;
+		height: auto;
+		margin: 0 auto;
+		padding: 25px 10px;
+	}
+
+	.tagline {
+		max-width: 100%;
+		text-align: center;
+	}
+
+	.tagline2 {
+		max-width: 800px;
+		margin: 0 auto;
+		font-size: 20px;
+		text-align: center;
+	}
+
+	.menu-item {
+		padding-top: 15px;
+		text-align: center;
+		letter-spacing: 5px;
+	}
+
+
+
+	.content {
+		max-width: 800px;
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+		/*padding: 20px 15px;*/
+		color: #fff;
+		text-align: center;
+		/*background-color: #EFF4F8;*/
+	}
+
+	.parag	 {
+		padding-left: 20px;
+		/*background-color:rgba(192,192,192,0.3);*/
+	}
+
+	.intro	{
+		/*width: 800px;*/
+		padding: 10px;
+		font-size: 20px;
+		display: block;
+	}
+	.display-3 {
+		color:	#FFA630; /*deepsafron*/
+		/*color: #f2ecd7; eggshell-white*/
+		text-align: center;
+		padding-top: 5px;
+	}
+	.menu	{
+		width: 100%;
+		margin: 0 auto;
+		padding-top: 20px;
+	}
+	.padding {
+		padding: 15px;
+	}
+
+	ol {
+	 padding-left: 30px;
+	}
+
+	.fluid	{
+		max-width: 100%;
+		height: auto;
+		display: block;
+		margin: 0 auto;
+		padding-top: 15px;
+	}
+}/*endquery*/
+
+/*extralargedefault*/
+@media (max-width: 1200px) {
+}/*endquery*/
